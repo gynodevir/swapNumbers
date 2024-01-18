@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.3rem;
+    background-color: #d3d3d3;
+    padding: 0.3rem;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffac2;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #order{
+    margin-top: 20%;
+    
+  }
